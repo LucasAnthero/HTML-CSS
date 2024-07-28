@@ -25,3 +25,5 @@ dafont.com ------ para baixar fontes
 mockflow.com -------- planejar layout site
 
 fonts.google.com ------ para baixar fontes
+
+qr-code-generator.com ------- criar QR code
