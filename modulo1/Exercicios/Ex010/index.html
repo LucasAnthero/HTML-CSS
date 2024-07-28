@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Tente abrir este site em outros dispositivo ou simplesmente aumente ou diminua o tamanho do navegador</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexivel">
+    </picture>
+    <hr>
+    <h1>Reproduzindo audio</h1>
+    <h2>Vamos aprender a reproduzir audios em HTML5</h2>
+    <h3>Agora a outra maneira</h3>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/linkin-mp3.mp3" type="audio/mpeg">
+        <source src="midia/linkin-ogg.ogg" type="audio/ogg">
+        <source src="midia/linkin-wav.wav" type="audio/wav">
+    </audio>
+    <p>Caso seu navegador não suporte o audio. <a href="midia/linkin-mp3.mp3" target="_blank">Clique aqui</a> para baixar o arquivo mp3.</p>
+</body>
+</html>

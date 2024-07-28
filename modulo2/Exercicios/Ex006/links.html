@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Personalizando links</title>
+    <style>
+        h1{
+            text-align: center;
+            font-size: 2em;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bolder;
+        }
+        a:visited{
+            color: rgb(204, 0, 136);
+        }
+        a:hover{
+            color: blue;
+            text-decoration: underline;
+        }
+        a:active{
+            color: blueviolet;
+        }
+        .especial::before{
+            content: '👅';
+        }
+        .especial::after{
+            content: '<LINK>';
+            color: rgb(0, 73, 0);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando link</h1>
+    <ol type="I">
+        <li><a href="https://www.youtube.com/" target="_blank" rel="external" class="especial">Youtube</a></li>
+        <li><a href="https://www.instagram.com/" target="_blank" rel="external" class="especial">Instagram</a></li>
+        <li><a href="https://www.facebook.com/" target="_blank" rel="external" class="especial">Facebookson</a></li>
+    </ol>
+    <a href="hover.html"><p style="text-align: center;">Vá para testar hover</p></a>
+    <a href="index.html"><p style="text-align: center;">Volte para primeira pg</p></a>
+</body>
+</html>

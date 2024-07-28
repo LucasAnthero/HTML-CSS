@@ -1,0 +1,120 @@
+@charset "UTF8";
+
+@import url('https://fonts.googleapis.com/css2?family=Amita:wght@400;700&family=Metamorphous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amita:wght@400;700&family=Metamorphous&family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amita:wght@400;700&family=Jura:wght@300..700&family=Metamorphous&family=Sedan+SC&display=swap');
+
+:root{
+    --cor0: #FCDA8E;
+    --cor1: #FFF681;
+    --cor2: #FCC03A;
+    --cor3: #FFB24F;
+    --cor4: #FC863A;
+    --amar: #c4a82d;
+    --fonth1: 'Amita';
+    --fonth2: 'Sedan';
+    --font-texto: 'Jura';
+}
+
+picture > img{
+    display: block;
+    margin: auto;
+}
+
+main{
+    min-width: 320px;
+    max-width: 700px;
+    margin: auto;
+    background-color: white;
+    padding: 5px 30px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.534);
+}
+
+.video{
+    background-color: var(--cor0);
+    margin: 0px -30px;
+    padding: 10px;
+    padding-bottom: 50%;
+    position: relative;
+}
+.video > iframe{
+    position: absolute;
+    top: 4%;
+    left: 4.5%;
+    width: 90%;
+    height: 90%;
+}
+
+article > h1{
+    text-align: center;
+    color: var(--amar);
+    font-family: var(--fonth1), serif;
+    font-weight: bolder;
+    font-size: 2em;
+    margin: 10px 0px;
+}
+article > h2{
+    text-align: left;
+    color: var(--cor4);
+    font-family: var(--fonth2), serif;
+    margin: 10px 0px;
+    padding-left: 8px;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+}
+article > p{
+    text-align: justify;
+    text-indent: 30px;
+    font-family: var(--font-texto), sans-serif;
+    font-weight: bold;
+    margin: 10px 0px;
+    line-height: 1.5em;
+}
+
+aside > p > a{
+    text-decoration: none;
+    color: red;
+}
+aside > p > a:visited{
+    color: blue;
+}
+aside > p > a:hover{
+    color: rgb(180, 162, 0);
+    text-decoration: underline;
+    background-color: rgba(124, 255, 255, 0.507);
+}
+aside > p > a:active{
+    color: rgb(5, 158, 0);
+}
+aside > p{
+    text-align: right;
+    font-size: 0.85em;
+    font-family: var(--font-texto), sans-serif;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+footer{
+    background-color: var(--cor4);
+    margin: 0px;
+    padding: 0px;
+}
+footer > p{
+    text-align: center;
+    margin: 10px auto 0px auto;
+    padding: 5px;
+}
+footer > p > a{
+    text-decoration: none;
+    color: red;
+}
+footer > p > a:visited{
+    color: blue;
+}
+footer > p > a:hover{
+    color: rgb(180, 162, 0);
+    text-decoration: underline;
+    background-color: rgba(124, 255, 255, 0.507);
+}
+footer > p > a:active{
+    color: rgb(5, 158, 0);
+}

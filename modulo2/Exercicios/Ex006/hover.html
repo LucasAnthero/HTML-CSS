@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Teste de hover</title>
+    <style>
+        div:hover{
+            color: red;
+        }
+        div > .escondido{
+            display: none;
+        }
+        div:hover > .escondido{
+            display: block;
+            color: black;
+            background-color: rgb(255, 123, 123);
+            width: 500px;
+        }
+        h1{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <div>
+        <p>Passe o mouse aqui</p>
+        <p class="escondido">Te peguei zé rodela 8=======D~~()</p>
+    </div>
+    <a href="index.html"><p style="text-align: center;">Volte para a primeira pg</p></a>
+    <a href="links.html"><p style="text-align: center;">Vá para parte de links</p></a>
+</body>
+</html>

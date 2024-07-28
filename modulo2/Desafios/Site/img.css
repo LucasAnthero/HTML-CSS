@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+img{
+    margin: auto;
+    padding: 15px;
+    display: block;
+}
+footer{
+    background-color: var(--cor4);
+    margin: 0px;
+    padding: 0px;
+}
+footer > p{
+    text-align: center;
+    margin: 10px auto 0px auto;
+    padding: 5px;
+}
+footer > p > a{
+    text-decoration: none;
+    color: red;
+}
+footer > p > a:visited{
+    color: blue;
+}
+footer > p > a:hover{
+    color: rgb(180, 162, 0);
+    text-decoration: underline;
+    background-color: rgba(124, 255, 255, 0.507);
+}
+footer > p > a:active{
+    color: rgb(5, 158, 0);
+}

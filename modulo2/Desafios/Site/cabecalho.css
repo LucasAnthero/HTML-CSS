@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+:root{
+    --cor0: #FCDA8E;
+    --cor1: #FFF681;
+    --cor2: #FCC03A;
+    --cor3: #FFB24F;
+    --cor4: #FC863A;
+    --amar: #FCD83A;
+}
+
+body{
+    background-color: rgb(255, 246, 129);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-image: linear-gradient(to top, #E1C000, #B69F1E, #615A30, #363424);
+    padding: 0px;
+    margin: 0px;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.664);
+    min-height: 150px;
+}
+header > h1{
+    text-align: center;
+    padding: 20px 0px 5px 0px;
+    margin: 0px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.658);
+}
+header > p{
+    font-size: 14px;
+    text-align: center;
+    padding: 5px 5px 20px 5px;
+    margin: 5px 5px 20px 5px;
+}
+
+nav{
+    text-align: right;
+    text-shadow: 1px 1px 2px black;
+    padding: 5px;
+    margin: 0px;
+}
+nav > a{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    padding: 0px 20px;
+    display: inline;
+}
+nav > a:visited{
+    color: blue;
+}
+nav > a:hover{
+    color: rgb(180, 162, 0);
+    text-decoration: underline;
+    border-radius: 5px;
+    background-color: rgba(124, 255, 255, 0.507);
+}
+nav > a:active{
+    color: rgb(5, 158, 0);
+}
