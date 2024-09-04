@@ -1,0 +1,157 @@
+/* TYPICAL DEVICE BREAKPOINTS 
+PEQUENAS TELAS: ATÉ 600PX 
+CELULAR: 600PX ATÉ 768PX
+TABLET: 768PX ATÉ 992PX
+DESKTOPS: 992PX ATÉ 1200PX
+GRANDES TELAS: 1200PX AND UP
+*/
+
+@charset "UTF-8";
+
+/*Import de fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap');
+
+/*Cores e fontes do site*/
+
+:root{
+    --cor0: #00DB46;
+    --cor1: #279C4C;
+    --cor2: #2E5C3C;
+    --cor3: #862E2D;
+    --cor4: #DB0400;
+    --corn: #332222;
+    --font-titulos1: "Sevillana", serif;
+    --font-titulos2: "Old Standard TT", serif;    
+    --font-paragrafo: "Nanum Gothic Coding", monospace;
+}
+
+/*Códigos gerais css*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+    background: var(--cor0) url("../imagens/back-natu.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*Cabeçalho*/
+
+header{
+    background-color: var(--cor2);
+    padding-top: 10px;
+    box-shadow: 2px 4px 4px black;
+}
+header > #imges{
+    float: left;
+}
+header > #imgdi{
+    float: right;
+}
+header > h1{
+    text-align: center;
+    font-size: 2em;
+    font-family: var(--font-titulos1);
+    color: var(--cor0);
+    text-shadow: 1px 1px 1px black;
+    margin: 5px 0px;
+}
+header > h2{
+    text-align: center;
+    font-size: 1.2em;
+    font-family: var(--font-paragrafo);
+    color: var(--cor0);
+    text-shadow: 1px 1px 1px black;
+    margin: 5px 0px;
+}
+header > #hamb{
+    display: block;
+    text-align: center;
+    background-color: var(--cor1);
+    padding: 5px;
+}
+header > #hamb:hover{
+    cursor: pointer;
+    background-color: var(--cor0);
+}
+header > #nave{
+    display: none;
+}
+header > #nave > a{
+    text-decoration: none;
+    color: var(--cor0);
+    background-color: #862e2d80;
+    padding: 5px;
+    display: block;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    
+}
+header > #nave > a:hover{
+    background-color: #00DB46;
+    color: var(--cor4);
+    text-shadow: 1px 1px 1px black;
+}
+
+/*Main*/
+
+main{
+    background-color: rgba(255, 255, 255, 0.678);
+    width: 90vw;
+    margin: 10px auto;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 2px 4px 4px black;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+main > section > h2{
+    text-align: center;
+    font-family: var(--font-titulos2);
+    font-weight: 700;
+    font-size: 1.3em;
+    text-shadow: 1px 1px 1px var(--cor2);
+}
+main > section > p{
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5em;
+    font-family: var(--font-paragrafo);
+}
+
+
+/*Rodapé*/
+
+footer{
+    background-color: var(--cor2);
+    padding: 10px;
+    box-shadow: 2px -4px 4px black;
+}
+footer > p{
+    color: var(--cor0);
+    text-align: center;
+}
+footer > p > a{
+    text-decoration: none;
+    color: var(--cor3);
+    text-shadow: 1px 1px 1px black;
+}
+footer > p >a:hover{
+    background-color: var(--cor0);
+    color: var(--corn);
+    font-weight: bold;
+    padding: 3px;
+    text-shadow: 1px 1px 1px var(--cor3);
+}
