@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+i#hamb{
+    display: none;
+}
+
+header > menu{
+    text-align: right;
+}
+header > menu > ul > li{
+    display: inline-block;
+    padding: 5px;
+}
+header > menu > ul > li > a{
+    background-color: rgb(43, 43, 43);
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px red;
+    font-weight: bold;
+    padding: 5px;
+}

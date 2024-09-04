@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Amita:wght@400;700&family=DM+Serif+Display:ital@0;1&family=Jura:wght@300..700&family=Kalnia+Glaze:wght@100..700&family=Metamorphous&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Prata&family=Sedan+SC&family=Ultra&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Jura:wght@300..700&family=Metamorphous&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Prata&family=Sedan+SC&family=Ultra&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    background-color: aquamarine;
+    font: normal 18px arial sans-serif;
+}
+
+header{
+    background-color: rgb(75, 75, 75);
+    margin: 0px;
+    padding: 10px;
+    min-height: 150px;
+}
+header > h1{
+    margin: 0px;
+    padding-top: 30px;
+    text-align: center;
+    color: black;
+    font-family: "Prata", serif;
+    text-shadow: 2px 2px 3px black;
+}
+header > p{
+    text-align: center;
+    color: black;
+    font-family: "Prata", serif;
+}
+header > p > a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+header > p > a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+div#wall1{
+    background-image: url('imagens/wall-1-800.png');
+    min-height: 600px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
+}
+section.branco{
+    background-color: white;
+    padding: 50px 30px;
+}
+section.branco > p{
+    font-size: 1.4em;
+    text-align: justify;
+    line-height: 2em;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-weight: bold;
+}
+section.fimg > p{
+    font-size: 1.4em;
+    text-align: justify;
+    line-height: 2em;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.534);
+    margin: 40px 20px 40px 30px;
+    padding: 5px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-weight: bold;
+}
+
+div#wall2{
+    background-image: url('imagens/wall-2-800.jpg');
+    min-height: 600px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
+}
+#especial{
+    margin-bottom: 60px;
+}
+
+
+footer{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+footer > p{
+    text-align: center;
+    color: red;
+    margin: 0px;
+    padding: 1px;
+}

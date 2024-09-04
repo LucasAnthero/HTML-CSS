@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+/* TYPICAL DEVICE BREAKPOINTS 
+PEQUENAS TELAS: ATÉ 600PX 
+CELULAR: 600PX ATÉ 768PX
+TABLET: 768PX ATÉ 992PX
+DESKTOPS: 992PX ATÉ 1200PX
+GRANDES TELAS: 1200PX AND UP
+*/
+
+body{
+    background-image: url('../imagens/back-print.jpg'); /* Desnecessario background para impressora*/
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+main{
+    border: 2px solid purple;
+}
+
+main::after{
+    content: 'Teste de media query impressora. Teste do Lucao fodao';
+    text-decoration: overline;
+}
+
+h1{
+    color: black;
+    text-shadow: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#pc{display: none;}
+#cel{display: none;}
+#imp{display: block;}
+#tab{display: none;}
+#tv{display: none;}

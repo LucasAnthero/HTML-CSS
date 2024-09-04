@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(186, 255, 232);
+}
+
+
+header{
+    background-color: black;
+    height: 200px;
+}
+header > h1{
+    text-align: center;
+    color: red;
+    text-shadow: 1px 1px 2px white;
+    padding: 50px 0px;
+    font-size: 2em;
+}
+header > menu{
+    text-align: right;
+}
+header > menu > ul > li{
+    display: inline;
+    color: red;
+    text-align: right;
+    margin: 10px;
+}
+
+main{
+    width: 600px;
+    margin: auto;
+    background-color: white;
+    padding: 15px;
+}
+main > article > p{
+    text-align: justify;
+    text-indent: 20px;
+}

@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/* TYPICAL DEVICE BREAKPOINTS 
+PEQUENAS TELAS: ATÉ 600PX 
+CELULAR: 600PX ATÉ 768PX
+TABLET: 768PX ATÉ 992PX
+DESKTOPS: 992PX ATÉ 1200PX
+GRANDES TELAS: 1200PX AND UP
+*/
+
+body{
+    background-image: url('../imagens/back-pc.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#pc{display: block;}
+#cel{display: none;}
+#imp{display: none;}
+#tab{display: none;}
+#tv{display: none;}

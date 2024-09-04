@@ -1,0 +1,73 @@
+/* TYPICAL DEVICE BREAKPOINTS 
+PEQUENAS TELAS: ATÉ 600PX 
+CELULAR: 600PX ATÉ 768PX
+TABLET: 768PX ATÉ 992PX
+DESKTOPS: 992PX ATÉ 1200PX
+GRANDES TELAS: 1200PX AND UP
+*/
+
+@charset "UTF-8";
+
+:root{
+    --cor0: #705E3F;
+    --cor1: #00EF5E;
+    --cor2: #3F7053;
+    --cor3: #723D9B;
+    --cor4: #41076d;
+}
+
+body, html{
+    background-image: linear-gradient(to right, var(--cor2), var(--cor1), var(--cor3), var(--cor4));
+    width: 100vw;
+    height: 100vh;
+}
+main{
+    width: 950px;
+    height: 450px;
+    padding: 0%;
+}
+main > #img{
+    background-image: url('../imagens/desktop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    float: right;
+    width: 40%;
+    height: 100%;
+    margin-left: 5px;
+}
+main > form{
+    float: left;
+    width: 59%;
+    height: 100%;
+}
+main > form > .campo{
+    margin-bottom: 20px;
+}
+main > form > .campo > .caixa{
+    width: 90%;
+}
+main > form > #entrar{
+    margin: 10px;
+    margin-bottom: 20px;
+}
+main > form > #esqsenha > a{
+    width: 93%;
+    margin-left: 10px;
+}
+main > form > #entrar:hover{
+    color: var(--cor1);
+    background-color: var(--cor0);
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px black;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+main > form > #esqsenha > a:hover{
+    color: var(--cor1);
+    background-color: var(--cor0);
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px black;
+    font-size: 1.1em;
+    cursor: pointer;
+}

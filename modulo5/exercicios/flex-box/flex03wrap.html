@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .conteiner1{
+            background-color: rgb(79, 255, 79);
+            margin: 10px;
+
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .conteiner2{
+            background-color: rgb(79, 255, 79);
+            margin: 10px;
+
+            display: flex;
+            flex-direction: row-reverse;
+            flex-wrap: wrap;
+        }
+        .conteiner3{
+            background-color: rgb(79, 255, 79);
+            margin: 10px;
+
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        .conteiner4{
+            background-color: rgb(79, 255, 79);
+            margin: 10px;
+
+            display: flex;
+            flex-direction: column-reverse;
+            flex-wrap: wrap;
+        }
+
+        .item{
+            background-color: aquamarine;
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flex-direction esta em Row</h1>
+    <div class="conteiner1">
+        <div class="item">Item A</div>
+        <div class="item">Item B</div>
+        <div class="item">Item C</div>
+        <div class="item">Item D</div>
+        <div class="item">Item E</div>
+        <div class="item">Item F</div>
+        <div class="item">Item G</div>
+        <div class="item">Item H</div>
+    </div>
+    <hr>
+    <h1>Flex-direction esta em Row-reverse</h1>
+    <div class="conteiner2">        
+        <div class="item">Item A</div>
+        <div class="item">Item B</div>
+        <div class="item">Item C</div>
+        <div class="item">Item D</div>
+        <div class="item">Item E</div>
+        <div class="item">Item F</div>
+        <div class="item">Item G</div>
+        <div class="item">Item H</div>
+    </div>
+    <hr>
+    <h1>Flex-direction esta em Column</h1>
+    <div class="conteiner3">
+        <div class="item">Item A</div>
+        <div class="item">Item B</div>
+        <div class="item">Item C</div>
+        <div class="item">Item D</div>
+        <div class="item">Item E</div>
+        <div class="item">Item F</div>
+        <div class="item">Item G</div>
+        <div class="item">Item H</div>
+    </div>
+    <hr>
+    <h1>Flex-direction esta em Column-reverse</h1>
+    <div class="conteiner4">
+        <div class="item">Item A</div>
+        <div class="item">Item B</div>
+        <div class="item">Item C</div>
+        <div class="item">Item D</div>
+        <div class="item">Item E</div>
+        <div class="item">Item F</div>
+        <div class="item">Item G</div>
+        <div class="item">Item H</div>
+    </div>
+</body>
+</html>

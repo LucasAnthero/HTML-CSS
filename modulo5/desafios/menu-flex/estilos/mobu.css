@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+header{
+    display: block;
+}
+header > h1{
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+header > nav > a{
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+footer{
+    display: block;
+    background-color: rgb(59, 59, 59);
+    font-weight: bold;
+    text-shadow: 1px 1px 1px white;
+    text-align: center;
+}

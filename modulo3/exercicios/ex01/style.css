@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body{
+    font: normal 18px arial sans-serif;
+    background-color: rgb(197, 255, 255);
+}
+table{
+    border-collapse: collapse;
+    width: 500px;
+    height: 500px;
+}
+td{
+    border: 1px solid purple;
+    text-align: center;
+    vertical-align: top;
+    font-weight: bolder;
+}
+.f01{
+    background-color: rgb(255, 71, 71);
+}
+.f02{
+    background-color: rgb(105, 255, 105);
+}
+.f03{
+    background-color: rgb(87, 87, 255);
+}
+.f04{
+    background-color: rgb(255, 255, 97);
+}

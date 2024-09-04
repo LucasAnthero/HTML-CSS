@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+header{
+    box-shadow: none;
+}
+header > menu {
+    display: none;
+}
+header > i#hamb{
+    display: none;
+}
+header > h1{
+    text-shadow: none;
+}
+
+main{
+    box-shadow: none;
+}
+main > article > h2{
+    font-size: 1.5em;
+}
+main > article > p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.4em;
+    line-height: 1.3em;
+}
+main > article::after{
+    content: 'Site de teste de menu responsivo Lucao Fodao';
+    color: blue;
+    border-top: 1px solid black;
+}
+
+footer{
+    display: none;
+}

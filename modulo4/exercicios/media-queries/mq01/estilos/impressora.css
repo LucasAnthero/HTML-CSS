@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+menu{
+    display: none;
+}
+
+h1{
+    text-align: center;
+    margin: 15px;
+    font-size: 2em;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    text-indent: 20px;
+    margin: 10px;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+article::after{
+    content: 'Teste de Media Queries do Lucao Fodao';
+}
